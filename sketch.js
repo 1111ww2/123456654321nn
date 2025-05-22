@@ -41,7 +41,7 @@ function draw() {
   // position video display area on screen
   let dispW = min(width, height * ratio) * scale;
   let dispH = dispW / ratio;
-  let offsetX = centerX - dispW / 2 - 80;
+  let offsetX = centerX - dispW / 2 - 10;
   let offsetY = centerY - dispH / 2 - 250;
 
   // create breathing (pulse) effect based on mouse speed
